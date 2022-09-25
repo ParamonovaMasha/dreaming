@@ -59,7 +59,7 @@ h1 {
   position: relative;
   width: 60px;
   height: 60px;
-  background-image: url("/img/menu.png");
+  background-image: url("img/menu.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30px;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .toggle.active {
-  background-image: url("/img/close.png");
+  background-image: url("img/close.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30px;
