@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>YOU CAN DO IT!</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h1 class="main-title">Make your dreams come true!</h1>
+        <div class="toggle"></div>
+      </header>
+      <video src="/img/PiazzaVenezia_Drone_009.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Never stop!</h2>
+        <h3>Keep going</h3>
+        <a href="#"> DO IT!</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="img/inst.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">YOU</a></li>
+        <li><a href="#">CAN</a></li>
+        <li><a href="#">DO</a></li>
+        <li><a href="#">IT</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
